@@ -1,18 +1,26 @@
 [
     {
+        "project": "UbuntuTouch-smdk4210",
         "repository": "android_device_samsung_galaxys2-common",
-        "target_path": "device/samsung/galaxys2-common"
+        "target_path": "device/samsung/galaxys2-common",
+        "branch": "phablet-saucy"
     },
     {
+        "project": "UbuntuTouch-smdk4210",
         "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412"
+        "target_path": "kernel/samsung/smdk4412",
+        "branch": "phablet-saucy"
     },
     {
+        "project": "UbuntuTouch-smdk4210",
         "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "target_path": "hardware/samsung",
+        "branch": "phablet-saucy"
     },
     {
-        "repository": "android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode"
+        "project": "UbuntuTouch-smdk4210",
+        "repository": "proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "phablet-saucy"
     }
 ]
