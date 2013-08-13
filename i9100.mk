@@ -54,4 +54,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
+# ubuntu-session
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ubuntu-session/GT-I9100.conf:system/GT-I9100.conf \
+    $(LOCAL_PATH)/ubuntu-session/ubuntu-session-script:system/etc/init.d/ubuntu-session-script
+
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)

@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+mount -o rw,remount /system
+mv /system/GT-I9100.conf /data/ubuntu/etc/ubuntu-session.d/GT-I9100.conf
+chmod 755 /data/ubuntu/etc/ubuntu-session.d/GT-I9100.conf
+rm /system/etc/init.d/ubuntu-session-script
+mount -o ro,remount /system
